@@ -1,0 +1,42 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: #614256;
+  --clr-primary-2: #5f4454;
+  --clr-primary-3: #835d74;
+  --clr-primary-4: #a27c93;
+  --clr-primary-5: #a27c93;
+  /* lighter shades of primary color */
+  --clr-primary-6: #aa889d;
+  --clr-primary-7: #b394a7;
+  --clr-primary-8: #ccb7c4;
+  --clr-primary-9: #e6dbe2;
+  --clr-primary-10: #d6c2cc;
+  /* darkest grey - used for headings */
+  --clr-grey-1: #614256;
+  --clr-grey-3: #814b6e;
+  --clr-grey-4: #503647;
+  /* grey used for paragraphs */
+  --clr-grey-5: #7e5a71;
+  --clr-grey-8: #b49fac;
+  --clr-grey-9: #cab3c1;
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-green-dark: hsl(125, 67%, 35%);
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-white: #fff;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.2rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 700px;
+}
