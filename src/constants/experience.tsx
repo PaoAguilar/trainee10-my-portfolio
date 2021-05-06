@@ -1,25 +1,48 @@
-import React from 'react';
-import { FaBook } from 'react-icons/fa';
-
-const experience = [
+const experiences = [
   {
     id: 1,
-    company: <FaBook className="social-icon" />,
-    position: 'ITCA FEPADE',
-    date: 'date',
+    company: 'Didea S.A de C.V',
+    position: 'Pasantía - Soporte Técnico',
+    date: 'Noviembre 2015 - Enero 2016',
+    description: [
+      {
+        id: 1,
+        name: 'Actualización de equipos de diagnóstico BMW.',
+      },
+      {
+        id: 2,
+        name: 'Activación de licencias Windows.',
+      },
+      {
+        id: 3,
+        name: 'Revisión de funcionamientos de equipo.',
+      },
+      {
+        id: 4,
+        name: 'Revisión de puntos de red.',
+      },
+      {
+        id: 5,
+        name: 'Ordenamiento de racks de red.',
+      },
+    ],
   },
   {
-    id: 1,
-    company: <FaBook className="social-icon" />,
-    position: 'ITCA FEPADE',
-    date: 'date',
-  },
-  {
-    id: 1,
-    company: <FaBook className="social-icon" />,
-    position: 'ITCA FEPADE',
-    date: 'date',
+    id: 2,
+    company: 'Sala de lo Civil - Corte Suprema de Justicia',
+    position: 'Pasantía - Analista desarrollador',
+    date: 'Julio 2019 - Enero 2020',
+    description: [
+      {
+        id: 1,
+        name: 'Participación en el equipo de desarrollo de sistema para ejecutores de embargo.',
+      },
+      {
+        id: 2,
+        name: 'Tecnologías utilizadas: PHP, Bootstrap, HTML, CSS, JavaScript y Jquery.',
+      },
+    ],
   },
 ];
 
-export default experience;
+export default experiences;

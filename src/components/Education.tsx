@@ -1,4 +1,3 @@
-import educations from '../constants/educations';
 import Title from '../components/Title';
 import studies from '../constants/education';
 import React from 'react';
