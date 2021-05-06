@@ -1,4 +1,4 @@
-import logoImg from '../assets/images/me.jpg';
+import meImg from '../assets/images/me.jpg';
 import socialMediaLinks from '../constants/socialMediaLinks';
 import React from 'react';
 import { Link } from 'gatsby';
@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </article>
         <div className="hero-div">
-          <img src={logoImg} alt="portafolio" />
+          <img src={meImg} alt="portafolio" />
         </div>
       </section>
     </header>
