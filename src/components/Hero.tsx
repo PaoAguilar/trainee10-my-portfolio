@@ -18,7 +18,13 @@ const Hero = () => {
             <div className="social-links">
               {socialMediaLinks.map((link) => {
                 return (
-                  <a href={link.url} key={link.id} className="social-link">
+                  <a
+                    href={link.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    key={link.id}
+                    className="social-link"
+                  >
                     {link.icon}
                   </a>
                 );

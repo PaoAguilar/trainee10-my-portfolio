@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaFacebookSquare, FaGithub, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const data = [
   {
@@ -9,13 +9,18 @@ const data = [
   },
   {
     id: 2,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: 'https://www.twitter.com',
+    icon: <FaGithub className="social-icon"></FaGithub>,
+    url: 'https://github.com/PaoAguilar',
   },
   {
     id: 3,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: 'https://www.twitter.com',
+    url: 'https://twitter.com/PaoAguilar09',
+  },
+  {
+    id: 4,
+    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
+    url: 'https://www.facebook.com/nenee.aguilar/',
   },
 ];
 
