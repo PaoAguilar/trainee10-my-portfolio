@@ -3,14 +3,14 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { FaAlignRight } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = ({ toggleSidebar }: { toggleSidebar: (open: boolean) => void }) => {
   return (
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
           {/* <img src={myPortafolioImg} alt="my portafolio" /> */}
           <h2>My Portafolio</h2>
-          <button type="button" className="toggle-btn">
+          <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight />
           </button>
         </div>
