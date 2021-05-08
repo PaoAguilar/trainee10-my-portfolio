@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Week 0 - Web page",
+    "slug": "week0-project",
+    "description": "Create a web page using just css and html, the colors and the images are your choise, just follow the structure",
+    "stack": [{ "id": 1, "title": "HTML" }, { "id": 2, "title": "CSS" }],
+    "url": "https://week0.vercel.app/",
+    "image": "./images/week0.png"
+  },
+  {
+    "id": 2,
+    "title": "Week 01 - Register and Konami Code",
+    "slug": "week01-project",
+    "description": "Create a web page using just css and html, the colors and the images are your choise, just follow the structure",
+    "stack": [{ "id": 1, "title": "HTML" }, { "id": 2, "title": "CSS" }],
+    "url": "https://homework-week01.vercel.app/",
+    "image": "./images/week0.png"
+  }
+]

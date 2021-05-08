@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects = ({ pageContext }: any) => {
+const Project = ({ pageContext }: any) => {
   return (
     <div>
       <h1>{pageContext.title}</h1>
@@ -10,4 +10,4 @@ const Projects = ({ pageContext }: any) => {
   );
 };
 
-export default Projects;
+export default Project;

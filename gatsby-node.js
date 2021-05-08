@@ -1,10 +1,10 @@
-const projects = require('./data/projects.json');
+const projects = require('./src/data/projects.json');
 
 exports.createPages = ({ actions: { createPage } }) => {
   projects.forEach((project) => {
     createPage({
       path: `/projects/${project.slug}`,
-      component: require.resolve('./src/templates/projects.tsx'),
+      component: require.resolve('./src/templates/project.tsx'),
       context: {
         title: project.title,
         description: project.description,
