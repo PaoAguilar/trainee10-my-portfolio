@@ -1,13 +1,33 @@
 import React from 'react';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { graphql } from 'gatsby';
 
-const Project = ({ pageContext }: any) => {
+const Project = ({ data }: any) => {
+  const project = data.projectsJson;
   return (
-    <div>
-      <h1>{pageContext.title}</h1>
-      <img src={pageContext.image} alt={pageContext.title} />
-      <div>{pageContext.description}</div>
-    </div>
+    <>
+      <main className="project-template-page">
+        <h2>{project.title}</h2>
+        <p>{project.description}</p>
+        <GatsbyImage image={getImage(project.image)} alt={project.title}/>
+      </main>
+    </>
   );
 };
+
+export const query = graphql`
+  query($slug: String!) {
+    projectsJson(slug: { eq: $slug }) {
+      title
+      description
+      slug
+      image {
+        childImageSharp {
+          gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
+        }
+      }
+    }
+  }
+`;
 
 export default Project;

@@ -1,15 +1,27 @@
-const projects = require('./src/data/projects.json');
-
-exports.createPages = ({ actions: { createPage } }) => {
-  projects.forEach((project) => {
+exports.createPages = async ({ actions: { createPage }, graphql }) => {
+  const results = await graphql(`
+    {
+      allProjectsJson {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `);
+  if (results.error) {
+    console.error('something went wrong!');
+    return;
+  }
+  results.data.allProjectsJson.edges.forEach((edge) => {
+    const project = edge.node;
     createPage({
       path: `/projects/${project.slug}`,
       component: require.resolve('./src/templates/project.tsx'),
       context: {
-        title: project.title,
-        description: project.description,
-        image: project.image,
-      }, //es como gatsby pasa la data en el componente
+        slug: project.slug,
+      },
     });
   });
 };
