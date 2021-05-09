@@ -35,7 +35,7 @@ const Projects = () => {
   const {
     allProjectsJson: { nodes: projects },
   } = project;
-  // console.log(projects);
+  console.log(projects);
 
   return (
     <section className="section projects">
@@ -49,7 +49,7 @@ const Projects = () => {
               <article className="project">
                 <GatsbyImage image={getImage(image)} alt={title} className="project-img" />
                 <div className="project-info">
-                  <span className="project-number">0{index + 1}</span>
+                  <span className="project-number">{index + 1}</span>
                   <Link to={`/projects/${slug}`} className="project-slug">
                     <h3>{title}</h3>
                   </Link>

@@ -3,8 +3,12 @@
     "id": 1,
     "title": "Week 0 - Web page",
     "slug": "week0-project",
-    "description": "Create a web page using just css and html, the colors and the images are your choise, just follow the structure",
-    "stack": [{ "id": 1, "title": "HTML" }, { "id": 2, "title": "CSS" }],
+    "description": "This week es about fundamentals of web development, such as HTML5, CCS3 and Javascript. This week contains a basic knowledge about each topic, in order to be prepared for the training program. Create a web page using just css and html, the colors and the images are your choise, just follow the structure",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" }
+    ],
     "url": "https://week0.vercel.app/",
     "image": "./images/week0.png"
   },
@@ -12,9 +16,131 @@
     "id": 2,
     "title": "Week 01 - Register and Konami Code",
     "slug": "week01-project",
-    "description": "Create a web page using just css and html, the colors and the images are your choise, just follow the structure",
-    "stack": [{ "id": 1, "title": "HTML" }, { "id": 2, "title": "CSS" }],
+    "description": "This is about fundamentals of Javascript, here we are going to learn about concepts that serve as the basis for the knowledge of the following weeks. We learned about some peculiarities of Javascript as well and as the heart of the language: function. We complement the knowledge with debugging techniques. The exercise consist of creating a form that requests information of a different type. Also we created a Konami Code",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" }
+    ],
     "url": "https://homework-week01.vercel.app/",
-    "image": "./images/week0.png"
+    "image": "./images/week01.png"
+  },
+  {
+    "id": 3,
+    "title": "Week 02 - Weather App",
+    "slug": "week02-project",
+    "description": "This week was about getting a fast and efficient understanding of the programming paradigms. About thinking of them as a way to achieve goals that otherwise will take longer or more difficult approaches. Using the api metaweather, we created a single weather app that consumes that endpoint and displays the weather forecast for the next 5 days on a given location.",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" }
+    ],
+    "url": "https://homework-week02.vercel.app/",
+    "image": "./images/week02.png"
+  },
+  {
+    "id": 4,
+    "title": "Week 03 - Simple list of post",
+    "slug": "week03-project",
+    "description": "This week was about patterns. Design patterns are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code. On this week we installed and configured a json-server and create a homepage with a list of posts.",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" }
+    ],
+    "image": "./images/week03.png"
+  },
+  {
+    "id": 5,
+    "title": "Week 04 - React Project",
+    "slug": "week04-project",
+    "description": "React is a Javascript library for building user interfaces. React shift your mindset of how you are suppose to think about programs to be less about the workflow, and more about being component-based and state-based. Here we create a website for a video game shop, using ReactJS.",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" },
+      { "id": 4, "title": "React JS" }
+    ],
+    "image": "./images/week04.png"
+  },
+  {
+    "id": 6,
+    "title": "Week 05 - React Project with hooks",
+    "slug": "week05-project",
+    "description": "Hooks are a new feature added in React version 16.8, prior to the version function base components were known as stateless components, this was because only in class components was possible to have a state and use component lifecycle methods to perform different operations depending on the component stage.",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" },
+      { "id": 4, "title": "React JS" },
+      { "id": 5, "title": "Hooks" }
+    ],
+    "url": "https://homework-week05.vercel.app/",
+    "image": "./images/week05.png"
+  },
+  {
+    "id": 7,
+    "title": "Week 06 - React Project with hooks and typescript",
+    "slug": "week06-project",
+    "description": "One of the biggest hurdles that Javascript brings when developing code, is the ability to evaluate data that may not have the proper structure; this can cause errors that will only surface at the moment when the invalid data is evaluated in a manner  that it can't be handled, causing your application to break at the hands of the user. Typescript is an extension of Javascript, were it's main feature is the ability to create static type definitions, which provides security that your code will run the required integrity",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" },
+      { "id": 4, "title": "React JS" },
+      { "id": 5, "title": "Hooks" },
+      { "id": 6, "title": "Typescript" }
+    ],
+    "url": "https://homework-week06.vercel.app/",
+    "image": "./images/week06.png"
+  },
+  {
+    "id": 8,
+    "title": "Week 07 - Building a Time Machine and a Tic Tac Toe",
+    "slug": "week07-project",
+    "description": "The Time machine has a sidebar with 3 buttons, 'Next', 'Previous' and 'Resume' where the first one allow the user to focus the next selected color, the second goes to the last selected color and resume will bring the user back to where it left",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" },
+      { "id": 4, "title": "React JS" },
+      { "id": 5, "title": "Hooks" },
+      { "id": 6, "title": "Typescript" }
+    ],
+    "url": "https://homework-week07.vercel.app/",
+    "image": "./images/week07.png"
+  },
+  {
+    "id": 9,
+    "title": "Week 08 - Marvel API Project",
+    "slug": "week08-project",
+    "description": "This project consumes the Marvel API, it has a home page with the information related to Marvel. Here I implement useContext hook",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" },
+      { "id": 4, "title": "React JS" },
+      { "id": 5, "title": "Hooks" },
+      { "id": 6, "title": "Typescript" }
+    ],
+    "url": "https://homework-week08.vercel.app/",
+    "image": "./images/week08.png"
+  },
+  {
+    "id": 10,
+    "title": "Week 09 - Testing Marvel API Project",
+    "slug": "week09-project",
+    "description": "Testing is an important part in the software development process, frontend applications are not the exception. The importance of testing is to make sure that changes made to our code whether by refctor or new features does not impact in the intended behaviour. In this testing I used React Testing Library and Jest",
+    "stack": [
+      { "id": 1, "title": "HTML" },
+      { "id": 2, "title": "CSS" },
+      { "id": 3, "title": "Javascript" },
+      { "id": 4, "title": "React JS" },
+      { "id": 5, "title": "Hooks" },
+      { "id": 6, "title": "Typescript" },
+      { "id":7, "title": "Jest & React Testing Library" }
+    ],
+    "url": "https://homework-week09.vercel.app/",
+    "image": "./images/week09.png"
   }
 ]

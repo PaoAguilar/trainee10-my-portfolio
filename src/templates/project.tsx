@@ -45,6 +45,7 @@ export const query = graphql`
       title
       description
       slug
+      url
       stack {
         id
         title
