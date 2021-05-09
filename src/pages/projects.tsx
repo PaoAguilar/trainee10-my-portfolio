@@ -3,6 +3,7 @@ import React from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { FaShareSquare } from 'react-icons/fa';
+import { Project, Stack } from '../types/interfaces';
 
 const Projects = () => {
   const project = useStaticQuery(
@@ -40,7 +41,7 @@ const Projects = () => {
     <section className="section projects">
       <Title title="all my projects" />
       <div className="section-center projects-center">
-        {projects.map((project, index) => {
+        {projects.map((project: Project, index:number) => {
           // console.log(project);
           const { id, title, slug, description, stack, url, image } = project;
           return (
@@ -54,7 +55,7 @@ const Projects = () => {
                   </Link>
                   <p className="project-desc">{description}</p>
                   <div className="project-stack">
-                    {stack.map((item) => {
+                    {stack.map((item: Stack) => {
                       return <span key={item.id}>{item.title}</span>;
                     })}
                   </div>
