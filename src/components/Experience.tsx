@@ -28,7 +28,7 @@ const Experience = () => {
             );
           })}
         </div>
-        {/* job info */}
+        {/* experience info */}
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>

@@ -1,7 +1,7 @@
 const about = {
   title: 'about me',
   info:
-    ' Egresada de Ingeniería en Sistemas Informáticos con experiencia en desarrollo web. Altamente organizada, capacidad para trabajar en equipo, actitud positiva, buenas relaciones interpersonales, alto nivel de confidencialidad y capacidad para trabajar en ambientes multiculturales.',
+    'Studying Computer Systems Engineering with experience in web development. Highly organized, ability to work in a team, positive attitude, good interpersonal relationships, high level of confidentiality and ability to work in multicultural environments.',
   stack: [
     {
       id: 1,
@@ -21,7 +21,19 @@ const about = {
     },
     {
       id: 5,
+      title: 'Hooks',
+    },
+    {
+      id: 6,
       title: 'gatsby.js',
+    },
+    {
+      id: 7,
+      title: 'Typescript',
+    },
+    {
+      id: 8,
+      title: 'Jest & React Testing Library',
     },
   ],
 };

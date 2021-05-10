@@ -1,5 +1,5 @@
 import Title from '../components/Title';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { FaShareSquare } from 'react-icons/fa';
@@ -36,19 +36,18 @@ const Projects = () => {
   const {
     allProjectsJson: { nodes: projects },
   } = project;
-  console.log(projects);
 
   const [projectList, setProjectList] = useState<Project[]>(projects);
-
-  const filterProjectsByTag = (selectedTag: string) => {
-    const filteredProjects = projects.filter((project) => {
-      let match = false;
-      project.stack.map((tag) => {
+  
+  const filterByTag = (selectedTag: string) => {
+    let match = false;
+    const filteredProjects = projects.filter((project:Project) => {
+      project.stack.map((tag: Stack) => {
         if (tag.title === selectedTag) match = true;
       });
       return match;
     });
-    setProjectList(filteredProjects);
+    setProjectList(filteredProjects);    
   };
 
   return (
@@ -57,19 +56,18 @@ const Projects = () => {
       <div className="section-center project-stack">
         <h3>You can click a tag to search projects</h3>
         {tags.map((tag, index) => {
-          return <span key={index} onClick={() => {
-            filterProjectsByTag(`${tag}`)
+          return <span style={{cursor: "pointer"}} key={index} onClick={() => {
+            filterByTag(`${tag}`)
           }}>{tag}</span>;
         })}
       </div>
       <div className="section-center projects-center">
         {projectList.map((project: Project, index: number) => {
-          // console.log(project);
           const { id, title, slug, description, stack, url, image } = project;
           return (
             <div key={id}>
               <article className="project">
-                <GatsbyImage image={getImage(image)} alt={title} className="project-img" />
+                <GatsbyImage image={getImage(image)!} alt={title} className="project-img" />
                 <div className="project-info">
                   <span className="project-number">{index + 1}</span>
                   <Link to={`/projects/${slug}`} className="project-slug">
@@ -77,7 +75,7 @@ const Projects = () => {
                   </Link>
                   <p className="project-desc">{description}</p>
                   <div className="project-stack">
-                    {stack.map((item: Stack) => {
+                    {stack.map((item) => {
                       return <span key={item.id}>{item.title}</span>;
                     })}
                   </div>

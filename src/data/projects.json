@@ -140,7 +140,6 @@
       { "id": 6, "title": "Typescript" },
       { "id":7, "title": "Jest & React Testing Library" }
     ],
-    "url": "https://homework-week09.vercel.app/",
     "image": "./images/week09.png"
   }
 ]

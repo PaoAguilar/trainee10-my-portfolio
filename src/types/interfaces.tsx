@@ -6,19 +6,16 @@ export interface ChildrenProps {
 }
 
 export interface Project {
-  id: number,
-  title: string,
-  slug: string,
-  description: string,
-  stack: {
-    id:number,
-    title: string,
-  },
-  url: string,
-  image: IGatsbyImageData
+  id: number;
+  title: string;
+  slug: string;
+  description: string;
+  stack: [{ id: number; title: string }];
+  url: string;
+  image: IGatsbyImageData;
 }
 
 export interface Stack {
-  id: number,
-  title: string
+  id: number;
+  title: string;
 }

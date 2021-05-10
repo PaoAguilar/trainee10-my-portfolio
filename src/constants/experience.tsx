@@ -2,44 +2,44 @@ const experiences = [
   {
     id: 1,
     company: 'Didea S.A de C.V',
-    position: 'Pasantía - Soporte Técnico',
-    date: 'Noviembre 2015 - Enero 2016',
+    position: 'Internship - Technical Support',
+    date: 'November 2015 - January 2016',
     description: [
       {
         id: 1,
-        name: 'Actualización de equipos de diagnóstico BMW.',
+        name: 'Diagnostic equipment update BMW.',
       },
       {
         id: 2,
-        name: 'Activación de licencias Windows.',
+        name: 'Windows license activation.',
       },
       {
         id: 3,
-        name: 'Revisión de funcionamientos de equipo.',
+        name: 'Review of technical equipment operations.',
       },
       {
         id: 4,
-        name: 'Revisión de puntos de red.',
+        name: 'Review of network points.',
       },
       {
         id: 5,
-        name: 'Ordenamiento de racks de red.',
+        name: 'Network rack arrangement.',
       },
     ],
   },
   {
     id: 2,
-    company: 'Sala de lo Civil - Corte Suprema de Justicia',
-    position: 'Pasantía - Analista desarrollador',
-    date: 'Julio 2019 - Enero 2020',
+    company: 'Sala de lo Civil - Supreme Court of Justice',
+    position: 'Internship - Analyst developer',
+    date: 'July 2019 - January 2020',
     description: [
       {
         id: 1,
-        name: 'Participación en el equipo de desarrollo de sistema para ejecutores de embargo.',
+        name: 'Participation in the system development team for seizure enforcers.',
       },
       {
         id: 2,
-        name: 'Tecnologías utilizadas: PHP, Bootstrap, HTML, CSS, JavaScript y Jquery.',
+        name: 'Used technology: PHP, Bootstrap, HTML, CSS, JavaScript and Jquery.',
       },
     ],
   },

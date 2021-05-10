@@ -15,7 +15,7 @@ const Project = ({ data }: any) => {
         <div className="section-center projects-center">
           <article className="project">
             <GatsbyImage
-              image={getImage(project.image)}
+              image={getImage(project.image)!}
               alt={project.title}
               className="project-img"
             />
