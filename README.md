@@ -1,15 +1,8 @@
 # Homework - week10
-# Deploy
-## [Go to the homework](https://paola-portfolio.netlify.app/)
 
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Typescript Starter with the bare essentials needed for a Gatsby site
-</h1>
+# Deploy
+
+## [Go to the homework](https://paola-portfolio.netlify.app/)
 
 ## 🚀 Quick start
 

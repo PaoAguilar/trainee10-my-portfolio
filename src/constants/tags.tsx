@@ -5,5 +5,5 @@ export const tags = [
   'React JS',
   'Hooks',
   'Typescript',
-  'Jest & React Testing Library'
-]
+  'Jest & React Testing Library',
+];
